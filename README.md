@@ -5,11 +5,11 @@
 2) If it does, it returns both the Unix timestamp and the natural language form of that date.
 3) If it does not contain a date or Unix timestamp, it returns null for those properties.
 
-##Example usage:
+## Example usage:
 `http://localhost:8000/December%2015,%202015`
 `http://localhost:8000/1450137600`
 
-##Example output:
+## Example output:
 `{ "unix": 1450137600, "natural": "December 15, 2015" }`
 
 ## Installation instructions
