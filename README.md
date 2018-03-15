@@ -28,7 +28,6 @@ git clone https://github.com/trolleksii/timestamp-api.git
 5. Install required packages from requirements.txt:<br>
  `pip install -r ./timestamp-api/requirements.txt`
 6. `cd` into ./timestamp-api:<br>
- `cd ./timestamp-api/`
+ `cd ./timestamp-api/timestamp_project/`
 7. Run tests to make sure that everything is working as it should:<br>
  `python manage.py test`
-
