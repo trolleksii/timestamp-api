@@ -19,6 +19,8 @@ ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost').split(',')
 # Application definition
 
 INSTALLED_APPS = [
+    'django.contrib.staticfiles',
+
     'timestamp_app',
 ]
 
@@ -50,3 +52,7 @@ WSGI_APPLICATION = 'timestamp_project.wsgi.application'
 TIME_ZONE = 'EET'
 
 USE_TZ = True
+
+SITE_URL = os.environ.get('SITE_URL', 'http://localhost:8000/')
+STATIC_URL = '/static/'
+STATIC_ROOT = os.environ.get('STATIC_ROOT', 'static/')
